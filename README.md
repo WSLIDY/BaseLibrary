@@ -1,15 +1,4 @@
-一、引用时会与本地Design 库发生冲突 需排除：
-
-compile ('com.github.WSLIDY:BaseFrameLibrary:2.0'){
-
-        exclude module: 'support-design'
-        
-        exclude group: 'com.android.support'
-        
-    }
-    
-    
-二、使用版本升级功能时/选择头像-拍照-照片库：
+一、使用版本升级功能时/选择头像-拍照-照片库：
 
 1、确保开启权限
 
