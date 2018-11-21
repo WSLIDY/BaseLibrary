@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="china.ljt.com.ljtbaseframe.MainActivity">
+
+    <Button
+        android:id="@+id/main_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加存储权限" />
+
+    <Button
+        android:id="@+id/main_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取联系人权限" />
+
+    <Button
+        android:id="@+id/main_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取信息权限" />
+   <ImageView
+       android:id="@+id/main_iv_01"
+       android:layout_width="100dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/main_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择头像" />
+    <Button
+        android:id="@+id/main_05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载图片" />
+    <ImageView
+        android:id="@+id/main_iv_02"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent" />
+</LinearLayout>
