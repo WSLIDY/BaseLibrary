@@ -52,7 +52,7 @@ public class MainActivity extends BaseActivity {
     public void widgetClick(View v) {
         switch (v.getId()) {
             case R.id.main_01:
-                PermissionGen.with(this).permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE).addRequestCode(100).request();
+               // PermissionGen.with(this).permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE).addRequestCode(100).request();
                 $startActivity(Main2Activity.class,null);
 //                new GeneralDialog(this, "发现新版本，是否更新？", "取消", "确定").setDialogListener(new GeneralDialog.ICustomDialogListener() {
 //                    @Override
